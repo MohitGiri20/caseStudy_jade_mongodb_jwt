@@ -1,0 +1,22 @@
+doctype html 
+
+html
+    head 
+        title Books In Database
+    body 
+        
+        h1 Congratulations !! 
+        h2 The books present in our database is:
+
+        ul 
+            each b in bookresult   
+                    li=b.bookname + " " + b.price + " " + b.quantity
+       
+  //-   table
+  //- thead
+  //-   tr
+  //-     th Description
+  //- tbody
+  //-   each b in bookresult
+  //-     tr
+  //-       td=b.bookname + " " + b.price + " " + b.quantity

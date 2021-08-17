@@ -1,0 +1,27 @@
+doctype html
+
+html
+    head
+        title BooksPage
+
+    body 
+ 
+ h1 Book Page
+    
+form#myform(method='POST' action='/bookpage')
+      | Enter bookname
+      input(type='text' name='bookname')
+      |         Enter  price
+      input(type='number' name='price')
+      |         Enter  quantity
+      input(type='number' name='quantity')
+      input(type='submit' value='send')
+    //- form#myform(method='POST' action='/bookpage')
+    //-   | Enter book name 
+    //- input(type='text' name='bookname')
+    //- | Enter book price
+    //- input(type='number' name='price')
+    //- | Enter book author
+    //- input(type='text' name='author')
+    //-   input(type='submit' value='send')
+    //- input(type="submit",value="submit")
